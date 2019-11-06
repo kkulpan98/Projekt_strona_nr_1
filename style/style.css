@@ -13,11 +13,22 @@ audio, video {
 }
 
 body {
+    margin: auto;
+    background-image: linear-gradient(cornflowerblue, salmon);
+    background-repeat: no-repeat;
+    background-color: salmon;
+}
 
+.clear {
+    clear: both;
 }
 
 /*Maly ekran*/
 @media screen and (max-width: 1024px) {
+    body {
+        width: 95%;
+    }
+
     aside {
         display: none
     }
@@ -25,13 +36,54 @@ body {
     article {
         width: 80%;
     }
+
 }
 
 /*Duzy ekran*/
 @media screen and (min-width: 1024px) {
+
+    body {
+        width: 80%;
+    }
+
     aside {
-        width: 25%;
+        width: 23.5%;
+        display: block;
+        padding: 0.5%;
+        margin: 0.25%;
         float: left;
         background-color: aqua;
+    }
+
+    article {
+        width: 73.5%;
+        padding: 0.5%;
+        margin: 0.25%;
+        float: right;
+        background-color: purple;
+        display: block;
+    }
+
+    nav > ul > li {
+        float: left;
+        width: 20%;
+        display: block;
+        text-align: center;
+        background-color: darkseagreen;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        outline: 1px solid black;
+    }
+
+    nav > ul > li:hover {
+        background: yellow;
+    }
+
+    nav > ul > li > a {
+        display: block;
+    }
+
+    article h1 {
+        text-align: center;
     }
 }
