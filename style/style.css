@@ -17,10 +17,44 @@ body {
     background-image: linear-gradient(cornflowerblue, salmon);
     background-repeat: no-repeat;
     background-color: salmon;
+    font-size: 100%;
+    font-family: Dekko, "Comic Sans MS", cursive;
 }
 
 .clear {
     clear: both;
+}
+
+.rounded-corners {
+    border-radius: 6px;
+}
+
+h1 {
+    font-size: xx-large;
+}
+
+h2 {
+    font-size: x-large;
+}
+
+header {
+    margin: 0.5% 0;
+    display: block;
+}
+
+header > img {
+    height: 15em;
+    width: 15em;
+    float: left;
+    margin-bottom: 0.5%;
+    display: block;
+}
+
+header > blockquote {
+    text-align: center;
+    padding-top: 3.5em;
+    margin: auto;
+    font-size: xx-large;
 }
 
 /*Maly ekran*/
@@ -46,44 +80,111 @@ body {
         width: 80%;
     }
 
+    header {
+        font-size: large;
+    }
+
     aside {
         width: 23.5%;
         display: block;
         padding: 0.5%;
-        margin: 0.25%;
+        margin: 0.5% 0.25%;
         float: left;
-        background-color: aqua;
+        background-color: beige;
+        text-align: justify;
+    }
+
+    aside > h1 {
+        text-align: center;
     }
 
     article {
         width: 73.5%;
         padding: 0.5%;
-        margin: 0.25%;
+        margin: 0.5% 0.25%;
         float: right;
-        background-color: purple;
+        background-color: beige;
         display: block;
     }
 
-    nav > ul > li {
+    article h1 {
+        margin: 1.5% 0;
+    }
+
+    article h2 {
+        margin: 1.5% 0;
+        text-align: center;
+    }
+
+    aside h2 {
+        margin: 1.5% 0;
+    }
+
+    nav#top > ul > li {
         float: left;
         width: 20%;
         display: block;
         text-align: center;
-        background-color: darkseagreen;
-        padding-top: 12px;
-        padding-bottom: 12px;
+        background-color: lightskyblue;
         outline: 1px solid black;
+        transition-duration: 0.5s;
     }
 
-    nav > ul > li:hover {
+    nav#top > ul > li:hover {
         background: yellow;
+        transition-duration: 1s;
     }
 
-    nav > ul > li > a {
+    nav#top > ul > li > a {
         display: block;
+        padding-top: 0.7%;
+        padding-bottom: 0.7%;
+        text-decoration: none;
     }
 
     article h1 {
         text-align: center;
     }
+
+    nav#bottom > ul >li {
+        float: left;
+        display: block;
+        width: 20%;
+        text-align: center;
+        background-color: orangered;
+        outline: 1px solid black;
+        transition-duration: 0.5s;
+    }
+
+    nav#bottom > ul > li:hover {
+        background: yellow;
+        transition-duration: 1s;
+    }
+
+    nav#bottom > ul > li > a {
+        display: block;
+        padding-top: 0.7%;
+        padding-bottom: 0.7%;
+        text-decoration: none;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    thead td {
+        background-color: orange;
+        font-weight: bold;
+        text-align: center;
+    }
+    thead td:first-child {
+        background-color: greenyellow;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    footer {
+        margin-top: 0.5%;
+    }
+
 }
