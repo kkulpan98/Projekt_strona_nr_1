@@ -25,6 +25,12 @@ body {
     clear: both;
 }
 
+span.err {
+    color: red;
+    font-weight: bold;
+    padding-left: 5px;
+}
+
 .rounded-corners {
     border-radius: 6px;
 }
@@ -274,6 +280,33 @@ textarea {
     textarea {
         width: 31em;
         resize: none;
+    }
+
+    footer {
+        padding: 1%;
+        background: beige;
+    }
+
+    figure {
+        width: 33.33%;
+        float: left;
+    }
+
+    figure > img {
+        width: 88%;
+        margin: 2%;
+        background-color: white;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        padding: 4%;
+        float: left;
+    }
+
+    figure > img:hover {
+        outline: 1px solid #777;
+    }
+
+    figcaption {
+        text-align: center;
     }
 
 }

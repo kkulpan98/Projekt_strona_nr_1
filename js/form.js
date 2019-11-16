@@ -1,6 +1,6 @@
 function checkString(str, msg) {
     if (isWhiteSpace(str) || isEmpty(str)) {
-        return msg + " ";
+        return msg + ", ";
     } else return "";
 }
 
@@ -9,10 +9,21 @@ function validate() {
         return true;
     } else {
         console.log(isValid());
+        document.getElementById("form_error").innerHTML = isValid();
+        startTimer();
         return false;
     }
 
 }
+
+function startTimer() {
+    window.setTimeout("clearError()", 5000);
+}
+
+function clearError() {
+    document.getElementById("form_error").innerHTML = "";
+}
+
 
 function isValid() {
     return checkString(document.getElementById("firstname").value, "Imie żle") +
