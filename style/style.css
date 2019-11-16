@@ -56,6 +56,10 @@ header > p {
     font-size: xx-large;
 }
 
+textarea {
+    height: 10%;
+}
+
 /*Maly ekran*/
 @media screen and (max-width: 1024px) {
     body {
@@ -84,12 +88,12 @@ header > p {
         border-radius: 10px;
         display: block;
         text-align: center;
-        background-color: lightskyblue;
+        background: url("../images/aaasdasd.png") no-repeat 0 0, lightskyblue;
         transition-duration: 0.5s;
     }
 
     nav#top > ul > li:hover {
-        background: deepskyblue;
+        background: url("../images/aaasdasd.png") no-repeat 0 95%, deepskyblue;
         transition-duration: 1s;
     }
 
@@ -105,12 +109,12 @@ header > p {
         border-radius: 10px;
         display: block;
         text-align: center;
-        background-color: orangered;
+        background: url("../images/aaasdasd.png") no-repeat 0 0, orangered;
         transition-duration: 0.5s;
     }
 
     nav#bottom > ul > li:hover {
-        background: orange;
+        background: url("../images/aaasdasd.png") no-repeat 0 95%, orange;
         transition-duration: 1s;
     }
 
@@ -183,11 +187,13 @@ header > p {
 
     header > p {
         padding-top: 3.5em;
+        text-align: center;
+        margin: auto;
     }
 
     nav#top > ul > li {
         float: left;
-        width: 18%;
+        width: 23%;
         margin: 1%;
         border-radius: 10px;
         display: block;
@@ -215,11 +221,10 @@ header > p {
     nav#bottom > ul > li {
         float: left;
         display: block;
-        width: 18%;
+        width: 23%;
         margin: 1%;
         border-radius: 10px;
         text-align: center;
-        /*background-color: orangered;*/
         background: url("../images/aaasdasd.png") no-repeat 0 8%, orangered;
         transition-duration: 0.5s;
     }
@@ -260,6 +265,15 @@ header > p {
     footer {
         margin-top: 0.5%;
         margin-bottom: 10%;
+    }
+
+    input {
+        width: 30em;
+    }
+
+    textarea {
+        width: 31em;
+        resize: none;
     }
 
 }
