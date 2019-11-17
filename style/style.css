@@ -7,6 +7,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
 }
 
 body {
+    min-width: 480px;
     margin: auto;
     transition-duration: 0.5s;
     background: linear-gradient(#6495edee, #fa8072) no-repeat fixed bottom right, url("../images/pomidorki.jpg") no-repeat fixed top left;
@@ -217,7 +218,6 @@ footer {
         width: 31em;
         resize: none;
         padding: 1%;
-        background: #F5F5DC
     }
 
     figure {
