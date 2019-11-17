@@ -3,15 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <title>Pomidory</title>
-    <link rel="stylesheet" href="style/style.css">
+    <link href="style/style.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Dekko' rel='stylesheet'>
     <script src="js/form.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 </head>
 <body>
 
 <header>
-    <img src="images/pomidor.jpg" alt="zdjęcie_pomidora" class="rounded-corners"/>
+    <img alt="zdjęcie_pomidora" class="rounded-corners" src="images/pomidor.jpg"/>
     <p>
         Strona poświęcona pomidorom
     </p>
@@ -35,13 +37,13 @@
 
     <form onsubmit="return validate()">
         <label for="firstname">Imię:</label><br>
-        <input id="firstname" type="text" name="imie" placeholder="Imie..."><br>
+        <input id="firstname" name="imie" placeholder="Imie..." type="text"><br>
         <label for="lastname">Nazwisko:</label><br>
-        <input id="lastname" type="text" name="nazwisko" placeholder="Nazwisko..."><br>
+        <input id="lastname" name="nazwisko" placeholder="Nazwisko..." type="text"><br>
         <label for="email">Email:</label><br>
-        <input id="email" type="text" name="email" placeholder="Email..."><br>
+        <input id="email" name="email" placeholder="Email..." type="text"><br>
         <label for="phone_number">Numer telefonu:</label><br>
-        <input id="phone_number" type="text" name="numer_telefonu" placeholder="Numer telefonu..."><br>
+        <input id="phone_number" name="numer_telefonu" placeholder="Numer telefonu..." type="text"><br>
         <label for="message">Treść wiadmości</label><br>
         <textarea id="message" name="message" placeholder="Treść Twojej wiadomości..."></textarea><br>
         <input type="submit" value="Wyślij">
@@ -69,11 +71,12 @@
 </nav>
 <div class="clear"></div>
 <footer class="rounded-corners">
-    To jest stopka strony, więc tutaj zamieszczam informację, że to jest ładna strona, pozdrawiam Copyright Kamil Kulpan 2019 <br>
-    <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
-    <a href="https://twitter.com" class="fa fa-twitter"></a>
-    <a href="https://www.google.com/" class="fa fa-google"></a>
-    <a href="https://www.youtube.com/" class="fa fa-youtube"></a>
+    To jest stopka strony, więc tutaj zamieszczam informację, że to jest ładna strona, pozdrawiam Copyright Kamil Kulpan
+    2019 <br>
+    <a class="fa fa-facebook" href="https://www.facebook.com/"></a>
+    <a class="fa fa-twitter" href="https://twitter.com"></a>
+    <a class="fa fa-google" href="https://www.google.com/"></a>
+    <a class="fa fa-youtube" href="https://www.youtube.com/"></a>
     <div class="clear"></div>
 </footer>
 
