@@ -10,7 +10,7 @@ body {
     min-width: 480px;
     margin: auto;
     transition-duration: 0.5s;
-    background: linear-gradient(#6495edee, #fa8072) no-repeat fixed bottom right, url("../images/pomidorki.jpg") no-repeat fixed top left, #fa8072;
+    background: linear-gradient(#6495edee, #fa8072) no-repeat fixed bottom right, #fa8072;
     font-size: 100%;
     font-family: Dekko, "Comic Sans MS", cursive
 }
