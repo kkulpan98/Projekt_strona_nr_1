@@ -10,9 +10,8 @@ body {
     min-width: 480px;
     margin: auto;
     transition-duration: 0.5s;
+    font-family: Dekko, 'Comic Sans MS', cursive;
     background: linear-gradient(#6495edee, #fa8072) no-repeat fixed bottom right, #fa8072;
-    font-size: 100%;
-    font-family: Dekko, "Comic Sans MS", cursive
 }
 
 .fa {
@@ -137,7 +136,11 @@ footer {
 
 @media screen and (max-width: 1024px) {
     body {
-        width: 95%
+        width: 95%;
+    }
+
+    a {
+        font-size: 1.4em;
     }
 
     aside {
@@ -162,12 +165,12 @@ footer {
         border-radius: 10px;
         display: block;
         text-align: center;
-        background: url("../images/aaasdasd.png") no-repeat 0 0, lightskyblue;
+        background: url("../images/button.png") no-repeat 0 0, lightskyblue;
         transition-duration: 0.5s
     }
 
     nav#top > ul > li:hover {
-        background: url("../images/aaasdasd.png") no-repeat 0 95%, deepskyblue;
+        background: url("../images/button.png") no-repeat 0 95%, deepskyblue;
         transition-duration: 1s
     }
 
@@ -183,12 +186,12 @@ footer {
         border-radius: 10px;
         display: block;
         text-align: center;
-        background: url("../images/aaasdasd.png") no-repeat 0 0, orangered;
+        background: url("../images/button.png") no-repeat 0 0, orangered;
         transition-duration: 0.5s
     }
 
     nav#bottom > ul > li:hover {
-        background: url("../images/aaasdasd.png") no-repeat 0 95%, orange;
+        background: url("../images/button.png") no-repeat 0 95%, orange;
         transition-duration: 1s
     }
 
@@ -293,12 +296,12 @@ footer {
         border-radius: 10px;
         display: block;
         text-align: center;
-        background: url("../images/aaasdasd.png") no-repeat 0 8%, lightskyblue;
+        background: url("../images/button.png") no-repeat 0 8%, lightskyblue;
         transition-duration: 0.5s
     }
 
     nav#top > ul > li:hover {
-        background: url("../images/aaasdasd.png") no-repeat 0 88%, deepskyblue;
+        background: url("../images/button.png") no-repeat 0 88%, deepskyblue;
         transition-duration: 1s
     }
 
@@ -320,13 +323,13 @@ footer {
         margin: 1%;
         border-radius: 10px;
         text-align: center;
-        background: url("../images/aaasdasd.png") no-repeat 0 8%, orangered;
+        background: url("../images/button.png") no-repeat 0 8%, orangered;
         transition-duration: 0.5s
     }
 
     nav#bottom > ul > li:hover {
         transition-duration: 1s;
-        background: url("../images/aaasdasd.png") no-repeat 0 88%, orange
+        background: url("../images/button.png") no-repeat 0 88%, orange
     }
 
     nav#bottom > ul > li:active {
